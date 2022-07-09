@@ -1,0 +1,221 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="56422B85-196A-3F32-011B-491FE73A7671" name="Contrato_trabajo">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>22B1296B-33B4-2E26-85AD-2FFF55944C30</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut" id="5307862F-32DA-622C-5292-4FC1049B7144">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>056E7E02-668A-FD7E-CF37-EDBDAEF68787</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="590D83F8-7D04-2C02-E0EB-789C5DA549C0">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>1E2AE0EC-ED10-A421-AE05-BEC79100A133</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="2D5362F3-75FE-C30D-5035-B17EF5F21245">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>77B61059-78AD-C148-2CEC-F0A3EB046585</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="especialidad" id="0FDF0643-490A-6E4F-30E8-C3C947B057A7">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>1B957A76-0E38-D1C5-0715-0A4877A6D81D</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="universidad_instituto" id="1EBF160A-D434-CA05-C546-9C5E2E2CF3A9">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>FA87B8EA-63FE-B3CC-1271-97DCD70C500F</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_particular" id="FDFF67FD-AF7A-7023-D5FF-BD1B4ED08189">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>FD6ADF92-F064-035F-62F7-92A978E3DEAC</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_contrato" id="5895328F-7CAB-4848-EF8C-F8C51728498C">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>356A1336-1305-2DF7-8399-9704FE60491D</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sueldo_base" id="1AA64D06-1C4D-B37E-7781-D52B26885961">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>63DC480F-9052-71B9-9BE5-EAFD524E5AF6</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director_encargado_rut_encargado" id="8A1E08DF-78B7-D42D-B416-388074A8207D">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>44BE5936-BE34-549B-4449-B7A9733FD9A0</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AA8D6F85-02AA-0559-9262-0DF5C9198B30" referredColumn="2A2E049A-422F-9202-0AF1-C787E9520DD1"/>
+</associations>
+</Column>
+<Column name="Profesor_ed_fisica_rut" id="7CAF9C45-8E28-3D57-A7B8-8E0EA86FDE80">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>F80B5E4D-DE4D-919F-E291-0EE47F34F34A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D312A741-5F8B-CC88-F2B2-9794756F6B0C" referredColumn="7759439C-9154-1F83-16A3-94088D6A401D"/>
+</associations>
+</Column>
+<Column name="Formulario_postulacion_num_folio" id="0073C8F3-854F-AD12-CAED-9577E0AFFE6C">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>244721FC-6D8B-46CB-2EA1-329C1074C004</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB73DF99-8660-D90E-AC07-ED9664E9059F" referredColumn="9A494632-5C7B-3310-01D4-0E8D57E368DA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="359571FB-CFD6-FA33-C74F-04672F399C5D" name="Contrato_trabajo_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>ABB601FC-1002-1781-0E1B-333CF1B46356</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5307862F-32DA-622C-5292-4FC1049B7144"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="97785E93-9589-65C9-503A-27E77AAE4BC5" name="Contrato_trabajo__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9965FF9A-443F-8F5A-78EA-E76B0A75157E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="0073C8F3-854F-AD12-CAED-9577E0AFFE6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F19AF3CF-817C-3CD6-049F-7D3B85073358" name="Contrato_trabajo_director_encargado_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>3FE6CFFD-EBD2-01FB-90D0-017D89A7148D</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8A1E08DF-78B7-D42D-B416-388074A8207D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E0B6DF4-1BDE-77FE-B10A-14EEBC4970E9" name="Contrato_trabajo_Profesor_ed_fisica_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>1F8B0473-6BE8-98D1-BA4C-B101A0ECE753</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CAF9C45-8E28-3D57-A7B8-8E0EA86FDE80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E9E41325-FC3C-F88A-FB7C-CA1104CA12EC" name="Contrato_trabajo_Formulario_postulacion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>9965FF9A-443F-8F5A-78EA-E76B0A75157E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0073C8F3-854F-AD12-CAED-9577E0AFFE6C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

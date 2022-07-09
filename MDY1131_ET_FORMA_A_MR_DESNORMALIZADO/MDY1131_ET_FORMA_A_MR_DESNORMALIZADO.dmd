@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MDY1131_ET_FORMA_A_MR_DESNORMALIZADO" id="4B88101A-27F9-5C19-1DDB-3B1AF25B193B" version="3.5">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:44:21 UTC</createdTime>
+<ownerDesignName>RelacionalPaulettePastor</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>4B88101A-27F9-5C19-1DDB-3B1AF25B193B</designId>
+</OSDM_Design>

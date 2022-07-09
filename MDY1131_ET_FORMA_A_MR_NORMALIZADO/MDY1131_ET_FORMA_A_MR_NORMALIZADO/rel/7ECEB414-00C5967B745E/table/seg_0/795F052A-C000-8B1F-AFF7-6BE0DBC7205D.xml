@@ -1,0 +1,115 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="795F052A-C000-8B1F-AFF7-6BE0DBC7205D" name="Especialidad">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>C818513B-4E3F-FDFA-A3A6-387E927B12CB</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_especialidad" id="D0293DAF-DD9F-6358-2FC3-B46D56D55F8E">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>C9B32822-CB26-693B-0A4A-1AE24FC9A168</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_especialidad" id="BFA93AC9-BD75-EE9C-9AEA-81871DA13302">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>1E48D18D-2ED6-B74C-35BF-8C19779AE57C</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_tecnico" id="55438F49-1AB7-D7F9-D3CE-6BDD103D1AE0">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>9CC09806-56E9-F4C5-F7BE-757BC745AC93</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titulo_profesional" id="AE2421E2-5185-30C9-8D31-7E0B92288368">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>742621DB-0E8C-57DD-3EF9-ED6A481C880E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesor_ed_fisica_rut" id="B24F4BC1-69D7-1999-2CD6-B071B26FDF91">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>B322FCE1-DC35-67A4-7370-B7DE54095211</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5537A689-09A3-41F5-CF2D-56BE61457409" referredColumn="7759439C-9154-1F83-16A3-94088D6A401D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8BF66207-DCB3-882B-A2E1-65D8C52F4CA3" name="Especialidad_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>47419E91-8FB3-4ED4-14AC-C82233F5BF91</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0293DAF-DD9F-6358-2FC3-B46D56D55F8E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A1BF3B14-80AB-E939-0961-6E402A1DD142" name="Especialidad__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0C5801DA-EA58-D9F1-190B-1A5E119BFCE1</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="B24F4BC1-69D7-1999-2CD6-B071B26FDF91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2E3CCE54-4F28-8090-BF07-AE3C29E24523" name="Especialidad_Profesor_ed_fisica_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>0C5801DA-EA58-D9F1-190B-1A5E119BFCE1</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B24F4BC1-69D7-1999-2CD6-B071B26FDF91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

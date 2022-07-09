@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="128AAF1C-E2B4-04DD-5224-5678A722A1EE" name="Nacionalidad">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>8CB1560E-4428-E331-0B3A-9189DFF47E99</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="chileno" id="C0675399-D832-5123-935A-3A2D5E056253">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>75F039E6-8B48-B161-185E-517C6AFD2A90</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="extranjero" id="D80E9B01-1414-7798-01D3-8502DA4114D3">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>B7A982BB-8E5E-FD2A-F821-6379A56D008D</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="director_encargado_rut_encargado" id="179625A4-F06F-0227-5602-7CDF16B97AEA">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>08B104C9-D512-9403-040D-7A67C8823979</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D8810951-0AE0-A600-B2B7-28D43046AD55" referredColumn="2A2E049A-422F-9202-0AF1-C787E9520DD1"/>
+</associations>
+</Column>
+<Column name="Nacionalidad_ID" id="C6EC42C5-9B58-88EB-D7CD-ADAAC1EDD401">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB24A4A8-819E-AF44-1DEC-79DA10A4BDB8" name="Nacionalidad_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="C6EC42C5-9B58-88EB-D7CD-ADAAC1EDD401"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E3668EAE-9189-1486-E5E1-77CD08FBEF9B" name="Nacionalidad__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>72D0AC15-CCC9-FD0C-2FE1-78802998A82A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="179625A4-F06F-0227-5602-7CDF16B97AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="225908A1-0114-EA0A-ECAF-88B80189B0A4" name="Nacionalidad_director_encargado_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>72D0AC15-CCC9-FD0C-2FE1-78802998A82A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="179625A4-F06F-0227-5602-7CDF16B97AEA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

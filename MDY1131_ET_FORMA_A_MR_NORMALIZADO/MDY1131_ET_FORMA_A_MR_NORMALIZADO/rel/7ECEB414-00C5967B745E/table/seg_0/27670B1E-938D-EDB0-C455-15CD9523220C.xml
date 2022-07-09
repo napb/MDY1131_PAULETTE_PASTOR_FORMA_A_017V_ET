@@ -1,0 +1,214 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="27670B1E-938D-EDB0-C455-15CD9523220C" name="director_encargado">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>2AD56991-802F-C11C-29A6-EFEC76ADDF3F</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="rut_encargado" id="2A2E049A-422F-9202-0AF1-C787E9520DD1">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>7BEAF45D-5B8D-98FE-118B-C5BA3D67CD9E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombres" id="39C3DF8E-D2E4-2D9C-20E0-7032727CD2BA">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>891A7047-0B4D-8564-C99A-26360F12D6B8</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellidos" id="9B6FB0A8-E9FE-57C1-D381-0FB83928CECA">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>D594E946-E387-A127-493F-F91D1B6E6B45</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion_encargado" id="3F1F0005-864C-E6B7-B048-77B86E9C1122">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>A8A7BD31-6BE3-22D9-AA7E-8B011990A147</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="FEE1A6AD-488C-ACAD-D88B-2B708DDA1057">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>EE2934DB-7C00-8730-5BA9-F25B93519A23</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="A9C91A35-45A1-477E-77F9-CF81247F8073">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>08F1D034-C4F2-35EF-F930-CD3BC19D690F</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="168AA05C-B7B9-81E7-936F-ED5F5C9AB963">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>BBEC51BC-FAE8-CAB1-1BCD-332ACF26258D</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo" id="8DE62190-2ADB-FDF0-46D6-8826C9FD3ACD">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>8EB20F04-F695-E86A-3880-DE086DFED8C6</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="78D9A870-15EB-1418-0FF0-43941383D096">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>C84C1F90-1EED-1838-58BF-EC9FE1322D4E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Estado_civil_Estado_civil_ID" id="8436021B-A31C-E581-D8E5-D89A650600BD">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABBAE613-2A56-67F9-963D-AD266D20645C" referredColumn="20414480-5CA5-8230-4B65-D8E745DD60EE"/>
+</associations>
+</Column>
+<Column name="Nacionalidad_Nacionalidad_ID" id="473D7DD5-7A1C-C316-5BEA-7B7785EEC416">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E879C7D2-5BC0-586B-EC62-54CFBF9F94DF" referredColumn="C6EC42C5-9B58-88EB-D7CD-ADAAC1EDD401"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="84AE0306-EFFB-6755-AB2A-8D487681411A" name="director_encargado_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>5610428F-3EB0-BC69-5325-57A5AEAAEC33</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2A2E049A-422F-9202-0AF1-C787E9520DD1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0C82701B-EF17-A4C4-7F3A-FCCA6D3BA0C5" name="director_encargado__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5A184490-0D0D-6382-A36C-5A33B7DC9E83</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="8436021B-A31C-E581-D8E5-D89A650600BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9F9BF2F-FA6B-FC98-EEBB-BA8B5FE83075" name="director_encargado__IDXv1">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>72D0AC15-CCC9-FD0C-2FE1-78802998A82A</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="473D7DD5-7A1C-C316-5BEA-7B7785EEC416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A7B4C909-AC86-104A-7645-50FAE417C3A5" name="director_encargado_Estado_civil_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>5A184490-0D0D-6382-A36C-5A33B7DC9E83</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8436021B-A31C-E581-D8E5-D89A650600BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8D810C5-1DE1-DAEC-C2F9-49EEF59C9D73" name="director_encargado_Nacionalidad_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>72D0AC15-CCC9-FD0C-2FE1-78802998A82A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="473D7DD5-7A1C-C316-5BEA-7B7785EEC416"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

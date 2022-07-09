@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="37BF9499-86EA-DB42-F38C-566ECDAEA75E" containerWithKeyObject="97A8262F-F0E0-0E58-0F43-924C8911475C" localFKIndex="6A4D7D67-3AC2-2FB0-59FC-83303A85E1B5" name="detalle_inversion_Tipo_inversion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>5A01F35D-481E-0C7E-1A27-CF803700325A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<referredTableLongName>Tipo_inversion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B7D4F424-1846-F9B3-2F21-B4DE719E285C</referredTableID>
+<keyObject>A3BD2D20-482F-1344-9922-45B85EE89044</keyObject>
+<referredKeyID>A3BD2D20-482F-1344-9922-45B85EE89044</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_inversion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

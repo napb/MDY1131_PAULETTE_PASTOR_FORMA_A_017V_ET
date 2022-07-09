@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="D37B7A38-856F-B69F-F93D-ED88FBCD203D">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:44:22 UTC</createdTime>
+<ownerDesignName>RelacionalPaulettePastor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

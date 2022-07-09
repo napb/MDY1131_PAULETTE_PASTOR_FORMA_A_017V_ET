@@ -1,0 +1,201 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2565CB41-A5FD-D2F8-BB96-EC013C82475E" name="Contrato_trabajo">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:02 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rut" id="92B2CC6B-2CE9-04AD-471C-99CD3D4CC757">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombres" id="E6E5234C-E4FA-3347-DB11-F79551378568">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:09 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellidos" id="FD6376C6-CB12-940F-F680-778515A765CB">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:26 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="especialidad" id="69FE280D-5FF4-AD07-7599-EB59907BF09F">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:37 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titulo" id="4B9FCF86-2FA5-D680-E98E-168FE4A7AE77">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:48 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="universidad" id="778A1523-1542-102A-1082-9B10CA2B3FE7">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:01:00 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="direccion" id="4A67B71A-71CB-4402-41B8-371BE1AC9389">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:01:29 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_contrato" id="DEA253EB-6B9D-3CF2-87AC-784EF89E2BC3">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:01:40 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor_hora" id="93879BA2-B890-19A7-8D70-A54069F3FD9F">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:02:36 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="horas_mensuales" id="17FB1A90-23F8-17C3-C819-6DAAD6F4D7BA">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:02:51 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sueldo_base" id="6DEE6B2E-5E51-E117-FECF-83F18483C297">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:03:03 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="num_folio" id="76D9C6F8-191C-464A-F27C-2FC652B300EE">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:22:22 UTC</createdTime>
+<generatorID>85836A3B-C407-275E-56B6-A9964CDA5420</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<referedAttribute>8192A752-D509-587F-9AD0-4AA6A79934C4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC2A0CEF-AB0F-865B-99A4-546D6453402B" name="Contrato_trabajo PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:00:35 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92B2CC6B-2CE9-04AD-471C-99CD3D4CC757</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

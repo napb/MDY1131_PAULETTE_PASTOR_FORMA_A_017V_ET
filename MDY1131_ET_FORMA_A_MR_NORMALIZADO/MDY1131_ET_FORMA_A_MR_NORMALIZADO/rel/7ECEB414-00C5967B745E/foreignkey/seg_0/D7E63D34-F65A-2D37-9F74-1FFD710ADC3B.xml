@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D7E63D34-F65A-2D37-9F74-1FFD710ADC3B" containerWithKeyObject="7B56E5F6-526F-E1A1-9300-D6DB92D7E78E" localFKIndex="474D9F1E-2968-60DB-0B00-A90A75F9DE03" name="Escuela_Sitio_web_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>E602B840-10A5-2904-5092-ADE32BF12154</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Sitio_web</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0EFDB325-F8A5-A042-B134-1F51699AC9A3</referredTableID>
+<keyObject>549E4730-DE2B-431C-A4E4-A10168E674CF</keyObject>
+<referredKeyID>549E4730-DE2B-431C-A4E4-A10168E674CF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_sitio_web</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

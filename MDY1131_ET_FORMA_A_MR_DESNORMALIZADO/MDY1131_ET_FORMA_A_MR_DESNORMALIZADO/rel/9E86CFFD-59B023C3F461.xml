@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_1" id="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" mainViewID="48C3B179-BAF6-0119-5357-4813CB03C771">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:44:27 UTC</createdTime>
+<ownerDesignName>RelacionalPaulettePastor</ownerDesignName>
+<shouldBeOpen>true</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FAC0B6F-C07C-0742-E984-E16666FDEC53" name="Formulario_ingreso">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>4BF6C926-7A1C-573E-93C7-D433C568732B</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="num_folio" id="130207C9-3E3C-CD12-046A-71D2505DFB70">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>8192A752-D509-587F-9AD0-4AA6A79934C4</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E7EAB01B-6B97-62D5-4B51-7A0DDBD28B62" name="Formulario_ingreso_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>8ED585EA-484E-56E9-0734-00539FF6A2C3</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="130207C9-3E3C-CD12-046A-71D2505DFB70"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

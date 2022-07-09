@@ -1,0 +1,163 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB0F9002-C078-F5EE-F9BC-3A37842A6471" name="Adjudicacion_recursos">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>D26300D8-E54A-3097-9F51-1620BB31C1DB</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="puntaje" id="16481BD2-5A35-0B4E-4E70-2035953689F7">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>16EB6DF3-03EE-04EC-AAB3-63D1239904FA</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_asignado" id="98C7C2E8-55CC-23FB-DBB8-E0709320F042">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>0FC9A170-3FB1-B9AB-6F0B-B90248B975B9</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="requisitos" id="9A9F5BE3-CB04-7298-93C6-36528166D67B">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>750ABB07-2AB9-28B9-C683-DDF558CE51F9</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_adjudicacion" id="C8A818D0-BB4E-DB98-E053-C819D7D5F3D2">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>FB9219B7-8CF1-8DE6-08F7-E006E8BA3937</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Escuela_id_escuela" id="3A3CF45D-6CFF-8E2F-CB01-F8F68A1C4F95">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>B7B6A1F7-727B-4D97-8124-683D47CA6EDA</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E83DC6B2-523F-AC80-8639-4046C42F0163" referredColumn="B0DA4E8D-6DA5-0DE6-EC95-7E20B5170C9A"/>
+</associations>
+</Column>
+<Column name="Adjudicacion_recursos_ID" id="B4289063-C980-5EB3-7497-F0AD5C9628FA">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="cumple_requisito_cumple_requisito_ID" id="100C23A6-3B98-C523-342D-95A4BE810517">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A39B93FF-0750-61CA-8CAD-A5114333E5A9" referredColumn="CBB7834B-99C1-B953-62FB-75F24012441D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81701D94-6B72-5F79-A28B-4C147271B42E" name="Adjudicacion_recursos_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="B4289063-C980-5EB3-7497-F0AD5C9628FA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3A70D267-7A97-995C-82A8-3A6D32DC6B56" name="Adjudicacion_recursos__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>60706E36-3250-406D-0F01-9012364B4DFC</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="3A3CF45D-6CFF-8E2F-CB01-F8F68A1C4F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB0B620-2CB5-28A4-42F4-D7D08E91AA61" name="Adjudicacion_recursos__IDXv1">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>BAD6C416-7D1F-3D3B-5DCB-FB6FB9F1B5C0</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="100C23A6-3B98-C523-342D-95A4BE810517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="945D8FBE-87F3-0BC9-A54E-EB8624C15A6D" name="Adjudicacion_recursos_Escuela_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>60706E36-3250-406D-0F01-9012364B4DFC</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3A3CF45D-6CFF-8E2F-CB01-F8F68A1C4F95"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C31FAD19-25F9-410B-E3EB-0F8F77D34224" name="Adjudicacion_recursos_cumple_requisito_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>BAD6C416-7D1F-3D3B-5DCB-FB6FB9F1B5C0</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="100C23A6-3B98-C523-342D-95A4BE810517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

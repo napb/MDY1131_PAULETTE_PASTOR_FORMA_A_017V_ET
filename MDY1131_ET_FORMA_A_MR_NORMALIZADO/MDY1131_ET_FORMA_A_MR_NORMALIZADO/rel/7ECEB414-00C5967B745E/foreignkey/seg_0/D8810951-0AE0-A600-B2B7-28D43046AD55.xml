@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D8810951-0AE0-A600-B2B7-28D43046AD55" containerWithKeyObject="128AAF1C-E2B4-04DD-5224-5678A722A1EE" localFKIndex="225908A1-0114-EA0A-ECAF-88B80189B0A4" name="Nacionalidad_director_encargado_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>72D0AC15-CCC9-FD0C-2FE1-78802998A82A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>director_encargado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27670B1E-938D-EDB0-C455-15CD9523220C</referredTableID>
+<keyObject>84AE0306-EFFB-6755-AB2A-8D487681411A</keyObject>
+<referredKeyID>84AE0306-EFFB-6755-AB2A-8D487681411A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_encargado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

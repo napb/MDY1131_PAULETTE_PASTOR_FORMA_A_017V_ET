@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B128CA10-A3F8-DAA6-1F18-96C6017A6F6F" containerWithKeyObject="2063B470-22E7-6CEB-28B0-A16B9C241054" localFKIndex="13168545-AE34-ECAA-36EF-3D7CEB7C0E4B" name="Profesor_ed_fisica_Escuela_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>BE060D4B-8984-97C6-E9A7-26D1B54B750C</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Escuela</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7B56E5F6-526F-E1A1-9300-D6DB92D7E78E</referredTableID>
+<keyObject>1C958C05-B97F-A4E7-A689-C5D7B436A1BF</keyObject>
+<referredKeyID>1C958C05-B97F-A4E7-A689-C5D7B436A1BF</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_escuela</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

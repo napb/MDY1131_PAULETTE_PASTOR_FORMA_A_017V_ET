@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="6A90B5CB-A44E-3BDB-D06C-6A5155474370" mainViewID="1BE15856-5468-0DE3-7C3C-040B887229F3">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 16:59:02 UTC</createdTime>
+<ownerDesignName>ExamenPaulettePastor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="C7B5FEB7-33FF-5A1A-6BC0-B404A7CA19E3">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 16:59:03 UTC</createdTime>
+<ownerDesignName>ExamenPaulettePastor</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

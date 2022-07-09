@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="97A8262F-F0E0-0E58-0F43-924C8911475C" name="detalle_inversion">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>2D6AD17F-31F8-A506-A975-46B755181B3A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="monto_solicitado_uf" id="719B2E64-2A94-35E3-242C-F56156C45ACC">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>2574122F-9C57-2E90-68EE-5D16197430F4</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_proyecto" id="89259360-9D41-2DBD-CF7A-A2AA848929BE">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>7A964E86-274E-86A3-06D3-FE806A5C1CC5</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Tipo_inversion_id_inversion" id="0BF75429-2368-C0B1-EE44-739846960068">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>7A211D4C-E63A-4BA6-754D-F94EEAEE5C56</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="37BF9499-86EA-DB42-F38C-566ECDAEA75E" referredColumn="2150A102-36DF-AEA9-CCFA-F9C9F4FF00CE"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6A4D7D67-3AC2-2FB0-59FC-83303A85E1B5" name="detalle_inversion_Tipo_inversion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>5A01F35D-481E-0C7E-1A27-CF803700325A</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0BF75429-2368-C0B1-EE44-739846960068"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

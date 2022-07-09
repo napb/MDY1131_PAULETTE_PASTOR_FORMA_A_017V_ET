@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="D95A28D5-607C-202F-66FB-27E1F5A81CEA" containerWithKeyObject="750D331B-2F91-8761-8B11-481BF19A914F" localFKIndex="148379FA-BAA4-8E97-DAAF-2D5D7BEC1976" name="Ocupacion_Profesor_ed_fisica_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>E9E5B997-13CB-D9A4-D5A3-1F2CEE897B56</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Profesor_ed_fisica</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2063B470-22E7-6CEB-28B0-A16B9C241054</referredTableID>
+<keyObject>FCAFAA27-6CC8-B056-252D-6264F95203DA</keyObject>
+<referredKeyID>FCAFAA27-6CC8-B056-252D-6264F95203DA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9D14EDED-FA39-823E-99A9-E0CFA7B85F8D" containerWithKeyObject="7BE9588B-4A8A-F767-8385-7FFA4C2DD7E7" localFKIndex="FCD13B93-B9C3-FC16-896C-4AFB3EE468B1" name="Estado_civil_Solicitante_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>88F75F78-783B-0248-8B04-AFA51A6A9152</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Solicitante</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>4258AF14-4888-2596-4C39-0C4FD8204319</referredTableID>
+<keyObject>C30DB352-C500-0DE1-BD84-62E079088070</keyObject>
+<referredKeyID>C30DB352-C500-0DE1-BD84-62E079088070</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>rut_solicitante</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="71C2D87B-B783-C06D-960F-71C2D7905C24" containerWithKeyObject="591B7051-2A6F-D9E2-B325-9FF0BA6B76AD" localFKIndex="19A2C902-584B-97E6-4AD7-810329498236" name="Escuela_Adjudicacion_recursos_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>0AC3B7F6-C064-FE66-1432-837BE23349E7</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<referredTableLongName>Adjudicacion_recursos</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0D90EE8E-E59C-FAA1-5E5C-B8931EEEFBE5</referredTableID>
+<keyObject>EC99008E-CBE6-173E-9C26-C32BE39FD318</keyObject>
+<referredKeyID>EC99008E-CBE6-173E-9C26-C32BE39FD318</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_adjudicacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

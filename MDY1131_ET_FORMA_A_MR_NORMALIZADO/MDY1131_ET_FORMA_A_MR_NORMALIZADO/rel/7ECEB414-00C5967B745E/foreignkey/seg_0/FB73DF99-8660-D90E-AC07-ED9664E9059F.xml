@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FB73DF99-8660-D90E-AC07-ED9664E9059F" containerWithKeyObject="56422B85-196A-3F32-011B-491FE73A7671" localFKIndex="E9E41325-FC3C-F88A-FB7C-CA1104CA12EC" name="Contrato_trabajo_Formulario_postulacion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>9965FF9A-443F-8F5A-78EA-E76B0A75157E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Formulario_postulacion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CC448CDA-4B11-FA3F-B3BF-1D778F936ECA</referredTableID>
+<keyObject>22F8D6E1-283F-77E5-4DA0-D52739CF478E</keyObject>
+<referredKeyID>22F8D6E1-283F-77E5-4DA0-D52739CF478E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>num_folio</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

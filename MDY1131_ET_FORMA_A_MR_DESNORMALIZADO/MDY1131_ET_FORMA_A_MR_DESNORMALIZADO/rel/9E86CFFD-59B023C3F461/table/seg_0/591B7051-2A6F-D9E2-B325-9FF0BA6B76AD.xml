@@ -1,0 +1,244 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="591B7051-2A6F-D9E2-B325-9FF0BA6B76AD" name="Escuela">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>91880156-0B43-D38A-56DE-4753B98962AA</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="4C51B262-142B-22FB-710E-48A3995811BC">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>948FF2E9-B8A9-4DBC-BEE9-B771B46EB4E3</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_escuela" id="96EC29AB-23F7-6CCF-2438-FA02883B7ECC">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>EB81C332-F5D8-3E94-EFDA-57DF998A45E4</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_recinto" id="DF92B6BD-05A2-739D-892D-B22C2C46BF94">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>8157F0F3-A2D9-6283-93ED-8A12807F1AEB</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="comuna" id="20C9FBEA-5480-114B-86E8-5E597AD549FB">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>5681A13F-B21F-B05C-9826-76C688A922C3</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="region" id="B59FD9A2-3921-AF83-C02C-682F232D34B7">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>A5F46E42-B13F-0C25-03A2-343F13044703</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_club" id="2BD0AE3C-820D-2652-7828-3F9014F1E54E">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>D9032237-4E8A-2869-EFA0-EC8642507DB9</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_escuela" id="D1C48DCE-979B-38AA-7AE7-506E92BCCFB6">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>93DC7935-ACC4-699B-E250-55B0F9414441</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="num_inscripcion" id="87B26FAA-D17F-B326-2499-3A882F5421C4">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>0D2B65F6-C579-CADB-8E78-AD53E9870DFD</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_resolucion" id="418A3519-529D-C5CB-AA13-1AB908BF033B">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>D01FA3A3-EF1C-0D37-1F1B-D9C100885CD8</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Director_encargado_rut_encargado" id="31046C59-FA45-EA7B-D722-77DFD7D3BDAC">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>33DEA72A-167D-6E78-41A8-6902A650FF2C</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="63D3C34E-638F-8A58-FBD9-C0932B808935" referredColumn="70488D80-CE28-8968-39C3-9C5121AF5BD3"/>
+</associations>
+</Column>
+<Column name="Tipo_inversion_id_inversion" id="A23363B4-B1AE-EA14-5B01-81CDE943885A">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>8D4612A4-5BBE-173F-0C01-1D2714DBF464</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="EEAFD9AB-16C3-F392-C768-53E89FE82A96" referredColumn="2150A102-36DF-AEA9-CCFA-F9C9F4FF00CE"/>
+</associations>
+</Column>
+<Column name="Adjudicacion_recursos_id_adjudicacion" id="BB23C064-E35F-85F6-4475-BE46217722BD">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>A1DEC124-53DF-B2B5-E1E1-01C8D2BC2A70</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71C2D87B-B783-C06D-960F-71C2D7905C24" referredColumn="7FF3FD70-0CCE-E8B3-33A8-9FD0ACFD85FC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD86DB52-3FDF-D6EB-727C-CDB7999946A1" name="Escuela_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>C4D9BF1E-A2DD-6DEC-6DE2-D303A8EC6272</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4C51B262-142B-22FB-710E-48A3995811BC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9BB55094-A330-BE63-1FA6-82D1D18ED1B5" name="Escuela__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>F49F79E0-3F72-33AD-CA6B-9186DC1154D4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="A23363B4-B1AE-EA14-5B01-81CDE943885A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="43AEA218-371B-B2F8-D329-C9327488BBFB" name="Escuela__IDXv1">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0AC3B7F6-C064-FE66-1432-837BE23349E7</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="BB23C064-E35F-85F6-4475-BE46217722BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0298C20D-C97E-3CE8-B3F5-EF35FB50B849" name="Escuela_Director_encargado_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>87FDD2CF-75B4-98CA-C198-66DE0F6A2D04</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31046C59-FA45-EA7B-D722-77DFD7D3BDAC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8D7F3D6C-1CF4-2EA4-4223-2380DCDC9938" name="Escuela_Tipo_inversion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>F49F79E0-3F72-33AD-CA6B-9186DC1154D4</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A23363B4-B1AE-EA14-5B01-81CDE943885A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="19A2C902-584B-97E6-4AD7-810329498236" name="Escuela_Adjudicacion_recursos_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>0AC3B7F6-C064-FE66-1432-837BE23349E7</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB23C064-E35F-85F6-4475-BE46217722BD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

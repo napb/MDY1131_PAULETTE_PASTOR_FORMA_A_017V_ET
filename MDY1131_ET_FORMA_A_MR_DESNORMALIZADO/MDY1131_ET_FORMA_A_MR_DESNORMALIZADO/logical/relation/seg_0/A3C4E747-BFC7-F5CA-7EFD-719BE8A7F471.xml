@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_8" directorySegmentName="seg_0" id="A3C4E747-BFC7-F5CA-7EFD-719BE8A7F471">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:20:31 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<engineerTo>
+<item key="9E86CFFD-CDBE-71C9-0AA3-59B023C3F461" value="true"/>
+</engineerTo>
+<sourcePk>77E27FB2-24C6-916A-91F4-8E5404D76AF6</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BBA6055C-3A4F-5F58-D519-DD2335D7F978</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>13375589-AF64-670D-6F43-7B9B8C3F0D99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

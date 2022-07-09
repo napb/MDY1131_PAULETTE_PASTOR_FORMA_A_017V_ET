@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C06817EF-7655-C096-85AD-A7BF013C061F" name="Prevision">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>13375589-AF64-670D-6F43-7B9B8C3F0D99</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_prevision" id="E5ED32F5-E2BC-FB52-079C-E1FFD55EB12F">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>0E7EB4E3-D777-9A6A-80CB-4E3C3D92E202</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="afp" id="631214E2-715F-C1DF-020C-71121FF48903">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>415EF553-0538-C5A1-5F2F-0E9EEDF7090E</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="isapre" id="5B952796-96DC-2C46-4035-9852C5E87FD7">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>7EA36F7C-0B55-5165-D1C4-19ACB6056CFF</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Profesor_rut_profesor" id="26CBFEB5-38B2-ECEB-32C6-8093C7F51CB3">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>BB6B597F-2A40-8F4D-1660-C8A9C79555B2</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FCD52216-9C94-CC2E-9CC7-4AD9D7B9F46D" referredColumn="26074B01-99F0-FEDF-C893-F89CF13C67E1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB52E01B-B7A4-0E5E-F64B-E7F0647C26F7" name="Prevision_PK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:56 UTC</createdTime>
+<generatorID>BF9F81E9-DA68-28BA-E478-EF53A88FED04</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5ED32F5-E2BC-FB52-079C-E1FFD55EB12F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AA1072B3-855D-2C5A-B2D7-4D463C832A14" name="Prevision__IDX">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A3C4E747-BFC7-F5CA-7EFD-719BE8A7F471</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="26CBFEB5-38B2-ECEB-32C6-8093C7F51CB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D888D2-7689-A134-459D-102ED563F257" name="Prevision_Profesor_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>A3C4E747-BFC7-F5CA-7EFD-719BE8A7F471</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26CBFEB5-38B2-ECEB-32C6-8093C7F51CB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

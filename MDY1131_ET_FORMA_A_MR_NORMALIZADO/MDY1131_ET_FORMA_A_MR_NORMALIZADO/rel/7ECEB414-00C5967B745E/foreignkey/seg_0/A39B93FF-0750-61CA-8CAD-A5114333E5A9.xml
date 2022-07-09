@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="A39B93FF-0750-61CA-8CAD-A5114333E5A9" containerWithKeyObject="EB0F9002-C078-F5EE-F9BC-3A37842A6471" localFKIndex="C31FAD19-25F9-410B-E3EB-0F8F77D34224" name="Adjudicacion_recursos_cumple_requisito_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>BAD6C416-7D1F-3D3B-5DCB-FB6FB9F1B5C0</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>cumple_requisito</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F691B83D-7B26-0F13-9716-58EC443A69BB</referredTableID>
+<keyObject>AD33DFA3-BCEA-DE1B-80CA-9A7BE3217386</keyObject>
+<referredKeyID>AD33DFA3-BCEA-DE1B-80CA-9A7BE3217386</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>cumple_requisito_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

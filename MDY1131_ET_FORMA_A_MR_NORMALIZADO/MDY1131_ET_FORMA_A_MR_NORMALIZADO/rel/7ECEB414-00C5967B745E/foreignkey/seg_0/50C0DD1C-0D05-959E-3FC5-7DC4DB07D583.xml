@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="50C0DD1C-0D05-959E-3FC5-7DC4DB07D583" containerWithKeyObject="65E00897-4F63-3BDD-9E2A-76D6D73F3FC1" localFKIndex="1E7716A3-A831-BD87-D35D-68F34EEB1D3E" name="tipo_inversion_Detalle_inversion_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>0779E3AB-C66E-D285-22BA-559DF3BE0592</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Detalle_inversion</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9D83CF1E-D49E-2AA4-242B-FB120D40FCB9</referredTableID>
+<keyObject>AE60C644-FAA8-D33D-A61F-7E8C3A9F43A4</keyObject>
+<referredKeyID>AE60C644-FAA8-D33D-A61F-7E8C3A9F43A4</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

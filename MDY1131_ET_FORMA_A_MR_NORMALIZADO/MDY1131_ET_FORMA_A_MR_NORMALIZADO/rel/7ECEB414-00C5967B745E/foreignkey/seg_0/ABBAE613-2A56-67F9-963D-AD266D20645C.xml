@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="ABBAE613-2A56-67F9-963D-AD266D20645C" containerWithKeyObject="27670B1E-938D-EDB0-C455-15CD9523220C" localFKIndex="A7B4C909-AC86-104A-7645-50FAE417C3A5" name="director_encargado_Estado_civil_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>5A184490-0D0D-6382-A36C-5A33B7DC9E83</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Estado_civil</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7BE9588B-4A8A-F767-8385-7FFA4C2DD7E7</referredTableID>
+<keyObject>4A4CD209-349F-7827-E357-04C5AD92E41C</keyObject>
+<referredKeyID>4A4CD209-349F-7827-E357-04C5AD92E41C</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>Estado_civil_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

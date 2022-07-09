@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="52B0AB95-3A30-D9CF-2283-20BBC8DB4A89" containerWithKeyObject="7B56E5F6-526F-E1A1-9300-D6DB92D7E78E" localFKIndex="66DC6939-3B6B-8817-B900-C5F185DA0E44" name="Escuela_director_encargado_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:17 UTC</createdTime>
+<generatorID>A57D4831-B4F2-5027-BAEF-B26E3A30E621</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>director_encargado</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>27670B1E-938D-EDB0-C455-15CD9523220C</referredTableID>
+<keyObject>84AE0306-EFFB-6755-AB2A-8D487681411A</keyObject>
+<referredKeyID>84AE0306-EFFB-6755-AB2A-8D487681411A</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>rut_encargado</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

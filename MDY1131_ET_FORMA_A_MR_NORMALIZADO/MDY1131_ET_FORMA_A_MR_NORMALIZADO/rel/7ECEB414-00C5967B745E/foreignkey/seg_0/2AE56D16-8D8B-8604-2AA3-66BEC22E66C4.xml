@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2AE56D16-8D8B-8604-2AA3-66BEC22E66C4" containerWithKeyObject="D5134FC0-0B46-7A98-29E3-CE05D0535034" localFKIndex="80007C39-3308-BEC3-E63F-A6E53FE81AEE" name="Municipalidades_Deporte_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>8E10F46E-6F3C-C57D-9737-99BAD7CF19FC</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Deporte</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6847B1BA-491C-FA35-6255-45D1911A5486</referredTableID>
+<keyObject>8CB8959C-00AF-BE19-D9F9-7560BBBF857D</keyObject>
+<referredKeyID>8CB8959C-00AF-BE19-D9F9-7560BBBF857D</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_deporte</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

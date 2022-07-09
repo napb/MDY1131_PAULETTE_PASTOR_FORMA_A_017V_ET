@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="0BF62AB8-1B27-7442-699B-080FB5512C06" containerWithKeyObject="EC6A5A5C-5F6C-49E7-73AD-173729752C23" localFKIndex="A887FFD1-10DF-BF25-4E1C-A53721DE15F6" name="Profesor_Contrato_indefenido_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 21:24:57 UTC</createdTime>
+<generatorID>8B49263E-4983-50D8-1101-74799350E67F</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_DESNORMALIZADO</ownerDesignName>
+<referredTableLongName>Contrato_indefenido</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>923ECD06-6929-7EFB-F610-D9DC70372B93</referredTableID>
+<keyObject>B73E5AEB-8026-54A1-D283-7A3BA744F652</keyObject>
+<referredKeyID>B73E5AEB-8026-54A1-D283-7A3BA744F652</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_contrato</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

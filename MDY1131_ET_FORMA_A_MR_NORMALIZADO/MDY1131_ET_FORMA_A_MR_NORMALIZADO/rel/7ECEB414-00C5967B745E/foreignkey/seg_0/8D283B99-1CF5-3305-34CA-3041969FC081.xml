@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8D283B99-1CF5-3305-34CA-3041969FC081" containerWithKeyObject="2063B470-22E7-6CEB-28B0-A16B9C241054" localFKIndex="BB4A0F72-8DB6-1517-CDA1-626A7F161BAA" name="Profesor_ed_fisica_Contrato_honorarios_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>27FA7A00-DC1F-480D-EF33-A881907B2EDE</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Contrato_honorarios</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>7CB5856E-5AC8-5EA2-02FB-D9D8035084D6</referredTableID>
+<keyObject>EBF1886D-CCD0-4FF1-9828-902F6724D441</keyObject>
+<referredKeyID>EBF1886D-CCD0-4FF1-9828-902F6724D441</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Contrato_honorarios_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

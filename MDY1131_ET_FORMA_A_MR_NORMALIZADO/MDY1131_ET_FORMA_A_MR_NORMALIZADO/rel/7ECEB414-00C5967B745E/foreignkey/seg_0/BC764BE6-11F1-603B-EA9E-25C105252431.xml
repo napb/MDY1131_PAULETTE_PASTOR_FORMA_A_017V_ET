@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="BC764BE6-11F1-603B-EA9E-25C105252431" containerWithKeyObject="2063B470-22E7-6CEB-28B0-A16B9C241054" localFKIndex="FC3517BC-73A7-DD10-E83F-68F2AEA7B827" name="Profesor_ed_fisica_Turno_trabajo_FK">
+<createdBy>paulette</createdBy>
+<createdTime>2022-07-08 20:07:18 UTC</createdTime>
+<generatorID>E99B9E89-C726-820A-2C02-153FD2FAD367</generatorID>
+<ownerDesignName>MDY1131_ET_FORMA_A_MR_NORMALIZADO</ownerDesignName>
+<referredTableLongName>Turno_trabajo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F4CE4C4E-715A-9A0E-2D50-2B8C14771432</referredTableID>
+<keyObject>4DDBFAD9-28FB-5A26-8F96-1E26F67B5022</keyObject>
+<referredKeyID>4DDBFAD9-28FB-5A26-8F96-1E26F67B5022</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>Turno_trabajo_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
